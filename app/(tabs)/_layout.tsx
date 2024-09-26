@@ -23,13 +23,13 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="mealPlan"
                 options={{
-                    title: 'Meal Plan',
+                    title: 'Your Plan',
                     tabBarIcon: ({ color, focused }) => (
                       <TabBarIcon name={focused ? 'book' : 'book-outline'} color={color} />
                     ),
                 }} />
                 <Tabs.Screen
-                name="profile"
+                name="userProfile"
                 options={{
                     title: 'Profile',
                     tabBarIcon: ({ color, focused }) => (
